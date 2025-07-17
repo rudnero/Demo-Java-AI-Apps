@@ -1,0 +1,21 @@
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: demo
+      base-url: http://langchain4j.dev/demo/openai/v1
+#      base-url: http://localhost:8090/v1
+      model-name: gpt-4o-mini
+      log-requests: true
+      log-responses: true
+      temperature: 0.0
+      timeout: PT60S
+      strict-tools: true
+      max-tokens: 2000
+
+logging:
+  level:
+    dev:
+      langchain4j: DEBUG
+
+server:
+  port: 8081
